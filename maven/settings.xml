@@ -5,8 +5,10 @@
   <servers>
     <server>
       <id>nexus</id>
-      <username>admin</username>
-      <password>r3dh4t1!</password>
+      <!-- Update this -->
+      <username>user</username>
+      <!-- Update this -->
+      <password>password</password>
     </server>
   </servers>
   
@@ -42,7 +44,8 @@
   <mirrors>
     <mirror>
       <id>nexus</id>
-      <url>http://nexus.apps.192.168.1.101.nip.io/repository/maven-public/</url>
+      <!-- Update this -->
+      <url>http://nexus.apps.SOME-IP.nip.io/repository/maven-public/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
