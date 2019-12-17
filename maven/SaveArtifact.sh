@@ -3,13 +3,13 @@
 #Variables
 LAUNCH_PATH=$(pwd)
 
-REPO_NAME=APPS-JSS-CommonUtilities
-PARENT=ApriaFrameworkParent
-MODULE=ApriaExceptionFramework
+REPO_NAME=$1
+PARENT=$2
+MODULE=$3
 
-GROUP_ID=com.apria
-ARTIFACT_ID=apria-exception
-VERSION=0.0.34-SNAPSHOT
+GROUP_ID=$4
+ARTIFACT_ID=$5
+VERSION=$6
 
 REPOSITORY_ID=nexus
 URL=http://nexus.apps.192.168.1.101.nip.io/repository/maven-snapshots
